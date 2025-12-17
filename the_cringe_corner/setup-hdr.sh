@@ -1,3 +1,6 @@
+echo THIS DOES NOT WORK - YOU NEED A LOT MORE THAN SETTING THE COLOR DEPTH TO BE REAL HDR.
+exit
+
 if [ -f "/etc/X11/xorg.conf.d/20-hdr.conf" ]; then
     echo /etc/X11/xorg.conf.d/20-hdr.conf exists, please edit
     exit
